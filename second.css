@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    margin: 0;
+    width: 100%;
+    height: 3500px;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+.head_1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(244, 244, 244);
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+.zerlog{
+    width: 140px;
+    height:80px;
+    cursor: pointer;
+}
+.zerlog img{
+    position: absolute;
+    width: 140px;
+    height: 80px;
+    left: 0;
+    max-height: 120px;
+    max-width: 130px;
+    object-fit: contain;
+    top:3;
+    left: 60px;
+}
+.headlogo img{
+    position: absolute;
+    width:100px;
+    height: 80px;
+    max-height: 40px;
+    max-width: 40px; 
+    right: 25px;
+    top: 20px;
+}
+.support{
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+}
+.pricing{
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+
+}
+.product{
+    position: absolute;
+    right: 300px;
+    cursor: pointer;
+
+}
+.about{
+    position: absolute;
+    right: 400px;
+    cursor: pointer;
+
+}
+.signup{
+    position: absolute;
+    right: 500px;
+    cursor: pointer;
+
+}
+.secondsect{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    
+}
+.secimg img{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    max-width: 400px;
+    max-height: 250px;
+    right:400px;
+    top: 25px;
+    
+}
+.sechead{
+    position: absolute;
+    top: 340px;
+    right:450px;
+}
+.secpara{
+    position: absolute;
+    top:390px;
+    right: 330px;
+    font-size: larger;
+}
+.button1 button{
+    position: absolute;
+    top:450px;
+    right: 531px;
+    width: 144px;
+    height: 54px;
+    background-color: royalblue;
+    border-radius: 7px;
+    color: white;
+    border-color: royalblue;
+}
+
+
+.button1 button:hover{
+    background-color: black;
+    cursor: pointer;
+    
+
+}
+.thirdsec{
+    width:100%;
+    height: 580px;
+    display: flex;
+}
+.thileft{
+    width: 50%;
+    height:700px;
+}
+.imgbro{
+    height:700px ;
+    width:100%;
+}
+.imgbro img{
+    height:700px;
+    width:100%;
+    max-height: 600px;
+    max-width:80% ;
+    object-fit: contain;
+}
+.thiright{
+    position: relative;
+    width: 50%;
+    height: 700px;
+}
+.thirighthead {
+    position: absolute;
+    right: 131px;;
+    top:120px;
+    font-weight: bold;
+    color: rgb(62, 59, 59);
+}
+.thirightpar{
+    position: absolute;
+    top: 203px;
+    right: 90px;
+}
+.thilist{
+    position: absolute;
+    top:285px;
+    left: 50px;
+
+}
+.thilist ul{
+    float: left;
+}
+.presslog{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 439px;
+
+}
+.presslog img{
+    width:100%;
+    height: 40px;
+    max-width: 90%;
+    max-height: 40px;
+    object-fit: contain;
+}
+.fourthsec{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.hf4{
+    position: absolute;
+    right: 486px;
+    
+}
+.pf4{
+    position: absolute;
+    right: 381px;
+    top: 70px;
+    font-size: x-large;
+
+
+}
+.sec4{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 180px;
+    right: -55px;
+}
+.sec4 img{
+    width: 100%;
+    height: 500px;
+    max-width: 90%;
+    max-height:500px ;
+    object-fit: contain;
+}
+.fifsecleft{
+    width:90%;
+    height: 280px;
+    display:grid ;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 69px;
+}
+.sixthsec{
+   width:100%;
+   height:320px;
+   display: grid;
+   grid-template-columns: auto auto;
+ 
+     
+}
+.sixthright{
+    margin-top: -39px;
+}
+.sixthleft{
+    margin-top:  -38px; 
+}
+.sevensec{
+    width:100%;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.butt7{
+    width: 120epx;
+    height: 60px;
+    background-color: b;
+    border-color:dodgerblue;
+    border-radius: 20px;
+    font-weight: bold;
+   
+}
+.butt7:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+.para7{
+    font-size: larger;
+}
+.eightsec{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    line-height: 2;
+    font-size: larger;
+     grid-column-gap: 50px;
+     font-weight: bold;
+     color: rgb(137, 136, 136);
+     
+     
+}
+.eightlog img{
+    width: 250px;
+    margin-top: 10px;
+}
+.lastsec{
+    display:flex;
+    opacity: 70%;
+    text-align: left;
+    flex-direction:column ;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    font-size: small;
+}
+.foot{
+    margin-top: 50px;
+    display: flex;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    gap: 20px;
+    justify-content: center;
+    color: rgb(137, 136, 136);
+}
+    
+
+
+
+
+
+
+   
+
+
